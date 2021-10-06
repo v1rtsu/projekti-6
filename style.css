@@ -1,0 +1,310 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.text-white {
+    color: #fff!important;
+}
+#infinite {
+    background-color: #333;
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    height: 123vh;
+    background-size: cover;
+}
+p {
+    line-height: 1.9rem;
+}
+.navpalkki {
+    display: flex;
+    justify-content: space-around;
+}
+.navteksti {
+    align-self: center;
+    font-size: 21px;
+    font-weight: 700;
+}
+.navteksti a {
+    color: #eee;
+    text-decoration: none;
+}
+.navbar-navi {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+.navbar-navi a {
+    text-decoration: none;
+}
+.navbar-navi a:hover {
+    background: #666;
+}
+.navlinkki {
+    color: #eee;
+    font-size: 21px;
+}
+ul li {
+   padding: 10px 30px 10px 30px;
+}
+ul li:hover {
+    background: #666;
+}
+.title {
+    text-align: center;
+    font-size: 58px;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+.subtitle {
+    text-align: center;
+    font-size: 21px;
+    margin: 0;
+}
+.icon-arrow-down {
+    color: #eee;
+    background: #666;
+    padding: 15px 30px;
+}
+.icon-arrow-down:hover {
+    padding: 20px 35px;
+    background: #777;
+}
+.btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 11rem;
+}
+.button {
+    text-decoration: none;
+}
+.sisältö-1 {
+    padding-top: 90px;
+    padding-bottom: 50px;
+    max-width: 1275px;
+    margin: 0 auto;
+}
+.sisältö-1 p {
+    font-size: 1.3rem;
+    line-height: 35px;
+}
+.sisältö-1 a {
+    text-decoration: none;
+}
+.teksti-1 h2 {
+    margin-top: 0;
+    font-size: 45px;
+    font-weight: 100;
+}
+.teksti-2 {
+    display: flex;
+    justify-content: center;
+}
+.teksti-2 h2 {
+    margin-top: 0;
+    font-size: 35px;
+}
+.teksti-2 p {
+    max-width: 520px;
+}
+.teksti-3 {
+    display: flex;
+    justify-content: center;
+}
+.teksti-3 h2 {
+    margin-top: 0;
+    font-size: 35px;
+}
+.teksti-3 p {
+    max-width: 520px;
+}
+i {
+    font-size: 50px;
+}
+.btn-2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background: #666;
+    padding: 14px 30px;
+}
+.btn-2:hover {
+    background: #888
+}
+#testimonials {
+    color: #fff;
+    background-image: url(img2.jpg);
+}
+.pikku-kuva {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.pikku-kuva img {
+    border-radius: 70%;
+}
+.pikku-kuva p {
+    max-width: 280px;
+}
+.pikku-img {
+    padding: 30px;
+}
+.sisältö-2 {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.otsikko-2 {
+    text-align: center;
+}
+.otsikko-2 h2 {
+    font-size: 41px;
+    font-weight: normal;
+}
+.otsikko-2 p {
+    max-width: 680px;
+    margin: 0 auto;
+}
+.sisältö-3 {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.otsikko-3 {
+    padding-top: 85px;
+    padding-bottom: 70px;
+}
+.otsikko-3 h2 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 100;
+}
+.otsikko-3 p {
+    perspective-origin: center;
+    max-width: 690px;
+    margin: 0 auto;
+    text-align: center;
+}
+.gallery-kuvat {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.kuva {
+    width: 220px;
+    max-height: 275px;
+    object-fit: cover;
+}
+.gallery-img {
+    position: relative;
+}
+.gallery-img:hover {
+    transform: translate3d(0px, 0px, 0px);
+    max-height: 275px;
+}
+
+.kuva-teksti {
+    position: absolute;
+    right: 20px;
+    bottom: 0px;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    align-items: end;
+    display: flex;
+    width: 82%;
+    height: 86%;
+    color: #eee;
+}
+ .kuva-teksti:hover {
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+}
+.kuva-teksti-box {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 98%;
+    opacity: 0;
+    border-bottom: solid 6px rgba(74, 55, 83, 1);
+}
+.kuva-teksti-box:hover {
+    opacity: 1;
+    background-color: rgba(74, 55, 83, 0.5);
+}
+#contact {
+    background-image: url(img8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sisältö-4 {
+    padding-top: 75px;
+    padding-bottom: 50px;
+}
+.lomake-ja-teksti {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1200px;
+}
+.otsikko-4 {
+    text-align: center;
+    color: #eee;
+}
+.otsikko-4 h2 {
+    font-size: 45px;
+    font-weight: 100;
+}
+.otsikko-4 p {
+    font-size: 1.1rem;
+    margin-bottom: 90px;
+}
+.lomake {
+    width: 30%;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.lomake-ruutu {
+    margin: 0 0 20px 0;
+    padding: 8px 20px;
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 21px;
+    color: #eee;
+}
+.lomake-ruutu::placeholder { 
+    color: #fff;
+    opacity: 1; 
+  }
+  
+  :-ms-input-placeholder { 
+    color: #fff;
+  }
+  
+  ::-ms-input-placeholder {
+    color: #fff;
+  }
+.contact-linkit {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+.lomake-link {
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    margin-bottom: 20px;
+}
+.contact-linkit i {
+    margin-right: 20px;
+}
+.btn-submit {
+    width: 50%;
+    padding: 10px;
+}
+.footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+}
+.footer a {
+    text-decoration: none;
+}
